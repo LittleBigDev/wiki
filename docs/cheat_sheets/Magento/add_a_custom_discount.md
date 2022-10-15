@@ -1,7 +1,6 @@
 # Add a Custom Discount
 ## 1. Declare a new quote totals item
-In `app/code/Vendor/Modulename/etc/sales.xml`
-```xml
+```xml title="app/code/Vendor/Modulename/etc/sales.xml"
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Sales:etc/sales.xsd">
  <section name="quote">
    <group name="totals">
@@ -12,8 +11,7 @@ In `app/code/Vendor/Modulename/etc/sales.xml`
 ```
 
 ## 2. Set the value of the discount
-In `app/code/Vendor/Modulename/Model/Total/Quote/Custom.php`
-```php
+```php title="app/code/Vendor/Modulename/Model/Total/Quote/Custom.php"
 <?php
 namespace Vendor\Modulename\Model\Total\Quote;
 
@@ -64,8 +62,7 @@ class Custom extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 
 ## 3. Display the custom discount in front (totals summary)
 ### Layout file
-In `app/code/Vendor/Modulename/view/frontend/layout/checkout_cart_index.xml`
-```xml
+```xml title="app/code/Vendor/Modulename/view/frontend/layout/checkout_cart_index.xml"
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
@@ -93,8 +90,7 @@ In `app/code/Vendor/Modulename/view/frontend/layout/checkout_cart_index.xml`
 ```
 
 ### View model knockout
-In `app/code/Vendor/Modulename/view/frontend/web/js/view/checkout/summary/customdiscount.js`
-```javascript
+```javascript title="app/code/Vendor/Modulename/view/frontend/web/js/view/checkout/summary/customdiscount.js"
 define(
    [
        'jquery',
@@ -118,8 +114,7 @@ define(
 ```
 
 ### Template knockout
-In `app/code/Vendor/Modulename/view/frontend/web/template/checkout/summary/customdiscount.html`
-```html
+```html title="app/code/Vendor/Modulename/view/frontend/web/template/checkout/summary/customdiscount.html"
 <!-- ko if: isDisplayedCustomdiscount() -->
 <tr class="totals customdiscount excl">
    <th class="mark" colspan="1" scope="row" data-bind="text: custom_discount"></th>

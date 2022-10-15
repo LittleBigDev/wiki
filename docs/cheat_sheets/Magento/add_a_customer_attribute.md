@@ -2,7 +2,7 @@
 ## The setup script
 In your module, in the `InstallData.php` or `UpgradeData.php` script, create the new customer attribute. In the bellow example, this is InstallData.
 
-```php
+```php title="InstallData.php"
 <?php
 namespace Vendor\Modulename\Setup;
 

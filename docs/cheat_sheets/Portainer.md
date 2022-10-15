@@ -10,7 +10,7 @@ Visit [https://localhost:9443](https://localhost:9443).
 If it is your first time visiting the app, you will have to follow the [initial setup](https://docs.portainer.io/start/install/server/setup).
 
 Optionnally, add an entry in your `/etc/hosts` file : 
-```
+``` title="/etc/hosts"
 127.0.0.1	portainer.local
 ```
 

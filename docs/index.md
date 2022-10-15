@@ -1,11 +1,10 @@
-# Obsidian Notes
+# LittleBigDev Knowledge Base
 
-Publish your public notes with MkDocs
+Continuous collection of heterogeneous knowledge
 
 ## Hello World!
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+Welcome in my ROM.
+This where I offload brain data from my RAM to this ROM.
 
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+Enjoy, or get lost. Whatever.
