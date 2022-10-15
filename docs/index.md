@@ -1,4 +1,4 @@
-# LittleBigDev Knowledge Base
+# Introduction
 
 Continuous collection of heterogeneous knowledge
 
