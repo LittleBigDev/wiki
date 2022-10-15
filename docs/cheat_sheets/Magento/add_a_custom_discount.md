@@ -11,40 +11,6 @@
 ```
 
 ## 2. Set the value of the discount
-
-Test
-```php
-<?php
-namespace Vendor\Modulename\Model\Total\Quote;
-
-class Custom extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
-{
-   protected $priceCurrency;
-   
-   public function __construct(
-       \Magento\Framework\Pricing\PriceCurrencyInterface $priceCurrency
-   ){
-       $this->priceCurrency = $priceCurrency;
-   }
-   
-   public function collect(
-       \Magento\Quote\Model\Quote $quote,
-       \Magento\Quote\Api\Data\ShippingAssignmentInterface $shippingAssignment,
-       \Magento\Quote\Model\Quote\Address\Total $total
-   ){
-       parent::collect($quote, $shippingAssignment, $total);
-           $baseDiscount = 10; // TODO : replace with your custom calculation
-           $discount =  $this->priceCurrency->convert($baseDiscount);
-           $total->addTotalAmount('customdiscount', -$discount);
-           $total->addBaseTotalAmount('customdiscount', -$baseDiscount);
-           $total->setBaseGrandTotal($total->getBaseGrandTotal() - $baseDiscount);
-           $quote->setCustomDiscount(-$discount);
-       return $this;
-   }
-}
-```
-
-`app/code/Vendor/Modulename/Model/Total/Quote/Custom.php`
 ```php title="app/code/Vendor/Modulename/Model/Total/Quote/Custom.php"
 <?php
 namespace Vendor\Modulename\Model\Total\Quote;
