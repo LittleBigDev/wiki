@@ -1,2 +1,9 @@
-.vscode/settings.json
-.obsidian/*
+# to exclude some Obsidian's settings
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+.obsidian/workspace
+
+# Add below lines to exclude OS settings and caches
+.trash/
+.DS_Store

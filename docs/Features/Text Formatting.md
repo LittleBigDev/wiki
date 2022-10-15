@@ -8,7 +8,7 @@ You can have lists like this
 
 Or checklist lists to
 
-- [ ] ==Get==
+- [x] ==Get==
 - [ ] things
 - [ ] ~~done~~
 
