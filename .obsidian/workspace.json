@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -150,15 +150,15 @@
   },
   "active": "629979114853f0f2",
   "lastOpenFiles": [
-    "docs/Topic 1/Note 1.md",
-    "docs/Features/Text Formatting.md",
-    "docs/Features/Mermaid Diagrams.md",
-    "docs/Features/LaTeX Math Support.md",
+    "Note 1.md",
+    "docs/index.md",
+    "docs/Cheat Sheets/Portainer.md",
     "docs/Topic 1/Note 2.md",
-    "Cheat Sheets/Magento/Add a Customer Attribute.md",
-    "Cheat Sheets/Portainer.md",
-    "Cheat Sheets/Magento/Add a Custom Discount.md",
-    "2022-10-04.md",
-    "README.md"
+    "docs/Topic 1/Note 1.md",
+    "docs/Features/Mermaid Diagrams.md",
+    "docs/Features/Text Formatting.md",
+    "docs/Features/LaTeX Math Support.md",
+    "docs/Cheat Sheets/Magento/Add a Customer Attribute.md",
+    "docs/Cheat Sheets/Magento/Add a Custom Discount.md"
   ]
 }
