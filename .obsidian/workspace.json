@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Features/Text Formatting.md",
+                "file": "docs/index.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Features/Text Formatting.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Features/Text Formatting.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Features/Text Formatting.md"
+                "file": "docs/index.md"
               }
             }
           },
@@ -150,9 +150,10 @@
   },
   "active": "629979114853f0f2",
   "lastOpenFiles": [
+    "docs/Topic 1/Note 1.md",
+    "docs/Features/Text Formatting.md",
     "docs/Features/Mermaid Diagrams.md",
     "docs/Features/LaTeX Math Support.md",
-    "docs/Topic 1/Note 1.md",
     "docs/Topic 1/Note 2.md",
     "Cheat Sheets/Magento/Add a Customer Attribute.md",
     "Cheat Sheets/Portainer.md",
