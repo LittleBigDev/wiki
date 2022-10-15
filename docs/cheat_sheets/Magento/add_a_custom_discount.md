@@ -11,7 +11,7 @@
 ```
 
 ## 2. Set the value of the discount
-```php title="app/code/Vendor/Modulename/Model/Total/Quote/Custom.php"
+```PHP title="app/code/Vendor/Modulename/Model/Total/Quote/Custom.php"
 <?php
 namespace Vendor\Modulename\Model\Total\Quote;
 
