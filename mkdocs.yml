@@ -19,7 +19,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
-      accent: indigo
+      accent: deep purple
       toggle:
         icon: material/lightbulb
         name: Switch to light mode
