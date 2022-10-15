@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md"
               }
             }
           },
@@ -148,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "629979114853f0f2",
+  "active": "a5abe724d41cd472",
   "lastOpenFiles": [
-    "docs/Cheat Sheets/Portainer.md",
     "docs/index.md",
+    "docs/cheat_sheets/Portainer.md",
     "Note 1.md",
     "docs/Topic 1/Note 2.md",
     "docs/Topic 1/Note 1.md",
     "docs/Features/Mermaid Diagrams.md",
     "docs/Features/Text Formatting.md",
     "docs/Features/LaTeX Math Support.md",
-    "docs/Cheat Sheets/Magento/Add a Customer Attribute.md",
-    "docs/Cheat Sheets/Magento/Add a Custom Discount.md"
+    "docs/cheat_sheets/Magento/add_a_customer_attribute.md",
+    "docs/cheat_sheets/Magento/add_a_custom_discount.md"
   ]
 }
