@@ -224,6 +224,7 @@
   "active": "3abe97f52be8feb3",
   "lastOpenFiles": [
     "docs/Leçons_Katel/français/grammaire/g2-types-de-phrases.md",
+    "docs/Leçons_Katel/mathématiques/numération/n4-comparer-encadrer-grands-nombres.md",
     "docs/Leçons_Katel/français/conjugaison/c4-particularités-premier-groupe-présent.md",
     "docs/Leçons_Katel/français/conjugaison/c3-present-indicatif.md",
     "docs/Leçons_Katel/français/conjugaison/c2-personnes-et-terminaisons.md",
@@ -231,7 +232,6 @@
     "docs/cheat_sheets/Portainer.md",
     "docs/cheat_sheets/Magento/add_a_customer_attribute.md",
     "docs/cheat_sheets/Magento/add_a_custom_discount.md",
-    "README.md",
-    "docs/index.md"
+    "README.md"
   ]
 }

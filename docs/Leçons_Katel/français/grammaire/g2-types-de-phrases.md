@@ -24,4 +24,4 @@ Ex. : Ces arbres sont-ils des êtres ?
 * Le temps utilisé est l'**impératif**.
 
 
-**Attention** à bien changer de <u>ton</u> en fonction du type de phrase.
+**Attention** à bien changer de ^^ton^^ en fonction du type de phrase.
