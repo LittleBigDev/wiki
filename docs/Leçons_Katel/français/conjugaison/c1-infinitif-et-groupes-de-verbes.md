@@ -1,7 +1,7 @@
 # C1 - L'infinitif et les 3 groupes de verbes
 ## 1. L'infinitif
 
-* Quand il n'est pas conjugué, unverbe est à l'infinitif
+* Quand il n'est pas conjugué, un verbe est à l'infinitif
 * L'infinitif d'un verbe est invariable (c'est à dire qu'il ne change jamais)
 * Dans le dictionnaire, les verbes sont écrits à l'infinitif
 * Un verbe se compose de 2 parties :
