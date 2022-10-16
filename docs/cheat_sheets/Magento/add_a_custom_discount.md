@@ -48,7 +48,7 @@ class Custom extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
        \Magento\Quote\Model\Quote\Address\Total $total
    ){
        parent::collect($quote, $shippingAssignment, $total);
-           $baseDiscount = 10; // (1) TODO : Replace with your custom calculation
+           $baseDiscount = 10; // (1)
            $discount =  $this->priceCurrency->convert($baseDiscount);
            $total->addTotalAmount('customdiscount', -$discount);
            $total->addBaseTotalAmount('customdiscount', -$baseDiscount);
@@ -59,7 +59,8 @@ class Custom extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 }
 ```
 
-1.  Replace with your custom calculation
+1.  Here, replace with your custom calculation
+
 ## 3. Display the custom discount in front (totals summary)
 ### Layout file
 ```xml title="app/code/Vendor/Modulename/view/frontend/layout/checkout_cart_index.xml"
@@ -106,12 +107,14 @@ define(
                return true;
            },
            getCustomDiscount : function(){
-               return '$10'; // TODO : replace with your custom calculation
+               return '$10'; // (1)
            }
        });
    }
 );
 ```
+
+1.  Here, replace with your custom calculation
 
 ### Template knockout
 ```html title="app/code/Vendor/Modulename/view/frontend/web/template/checkout/summary/customdiscount.html"
