@@ -16,7 +16,7 @@ On reconnait le groupe d'un verbe grâce à sa terminaison à l'infinitif
 => Infinitif en "er" (sauf "aller")
 
 ### b) Deuxième groupe
-=> Infinitif en "ir"
+=> Infinitif en "ir"  
 => la première personne du pluriel conjuguée au présent se termine en "issons"
 
 ### c) Troisième groupe
