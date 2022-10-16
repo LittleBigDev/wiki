@@ -1,7 +1,7 @@
 # C3 - Le présent de l'indicatif
 ## 1. Emploi du présent de l'indicatif
 * On utilise le présent pour dire ce qu'il se passe **maintenant**.
-* On utilise le présent pour décrire une vérité scientifique / un fait habituel. (La Terrre tourne autour du Soleil. Je me lève à 8h.)
+* On utilise le présent pour décrire une vérité scientifique / un fait habituel. (La Terre tourne autour du Soleil. Je me lève à 8h.)
 
 ## 2. Conjuguer au présent
 ### Les auxiliaires
