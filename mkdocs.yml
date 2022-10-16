@@ -43,8 +43,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.highlight:
-      linenums: true
-      anchor_linenums: true
+      # linenums: true
+      # anchor_linenums: true
       auto_title: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
