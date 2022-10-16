@@ -32,9 +32,8 @@ markdown_extensions:
   - md_in_html
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
   # - pymdownx.details
-  # - pymdownx.magiclink
+  - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
   - def_list
