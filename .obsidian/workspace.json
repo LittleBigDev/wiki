@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md",
-                "mode": "preview",
+                "file": "docs/cheat_sheets/Portainer.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md",
+                "file": "docs/cheat_sheets/Portainer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md",
+                "file": "docs/cheat_sheets/Portainer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/cheat_sheets/Magento/add_a_custom_discount.md"
+                "file": "docs/cheat_sheets/Portainer.md"
               }
             }
           },
@@ -150,9 +150,9 @@
   },
   "active": "629979114853f0f2",
   "lastOpenFiles": [
+    "README.md",
     "docs/index.md",
     "docs/cheat_sheets/Magento/add_a_custom_discount.md",
-    "README.md",
     "2021-11-22-22-54-02.png",
     "2021-11-22-22-52-49.png",
     "2021-11-22-22-49-26.png",
