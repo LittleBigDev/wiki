@@ -1,4 +1,5 @@
 site_name: LittleBigDev Knowledge Base
+repo_url: https://github.com/LittleBigDev/wiki
 
 theme:
     name: 'material'
