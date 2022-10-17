@@ -1,6 +1,6 @@
 # Portainer
 ## First-time setup of a new Portainer Server
-```bash
+```bash title="Terminal"
 docker volume create portainer_data
 docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
@@ -17,7 +17,7 @@ Optionnally, add an entry in your `/etc/hosts` file :
 And then, access web app visiting [https://portainer.local:9443](https://portainer.local:9443).
 
 ## Upgrading on Docker
-```bash
+```bash title="Terminal"
 docker stop portainer
 docker rm portainer
 docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
